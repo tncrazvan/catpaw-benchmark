@@ -5,7 +5,7 @@ return [
     "sessionName" => "../_SESSION",
     "asciiTable" => false,
     "httpMtu" => 1024 * 1024,
-    "httpMaxBodyLength" => 1024 * 1024 * 1024,
+    "httpMaxBodyLength" => 1024 * 1024 * 1024 * 20,
     "events" => [
         "http"=>[
             "@forward" => [
