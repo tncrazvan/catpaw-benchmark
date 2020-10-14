@@ -1,0 +1,17 @@
+vendor/
+tmp/
+config/tmp/
+config/args
+composer.lock
+.project
+.buildpath
+.vscode/
+.settings/
+nbproject/
+certificate.pem
+*.log
+*.exe
+composer.json
+*.pem
+public/
+src/uploads/
