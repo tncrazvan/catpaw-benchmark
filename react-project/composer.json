@@ -1,0 +1,22 @@
+{
+    "name": "tncrazvan/catpaw-benchmark",
+    "description": "A benchmark for catpaw",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Razvan Tanase",
+            "email": "tangent.jotey@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"": ["src"]
+		}
+	},
+    "require": {
+        "react/react": "*"
+    },
+    "config": {
+		"preferred-install": "dist"
+	}
+}
