@@ -1,0 +1,34 @@
+{
+	"name":"tncrazvan/catpaw-template",
+	"type": "project",
+	"description": "A php CatPaw template",
+	"keywords": ["php","cli","server","http","websocket","catpaw","template"],
+	"homepage": "https://github.com/tncrazvan/catpaw-template",
+	"license": "MIT",
+	"scripts":{
+		"dev": "sudo ./scripts/dev",
+		"mkcert": "sudo php ./scripts/mkcert.php",
+		"start": "sudo ./scripts/start"
+	},
+	"authors": [
+		{
+			"name": "Razvan Tanase",
+			"email": "tangent.jotey@gmail.com",
+			"homepage": "https://github.com/tncrazvan",
+			"role": "Developer"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"":["scripts","src"]
+		}
+	},
+	"require": {
+		"php": ">=7.4",
+		"tncrazvan/catpaw":">=1.1.5"
+	},
+	"config": {
+		"preferred-install": "dist",
+		"process-timeout":0
+	}
+}

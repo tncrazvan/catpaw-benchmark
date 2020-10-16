@@ -12,7 +12,6 @@ _SESSION/
 certificate.pem
 *.log
 *.exe
-composer.json
 *.pem
 public/
 src/uploads/
